@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/tanishashrotriya/Downloads/MyApplication/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/home/tanishashrotriya/.android/build-cache/13c456189517575d2e7da4de8e68f59d853f1ab8/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/home/tanishashrotriya/Downloads/MyApplication/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/home/tanishashrotriya/.android/build-cache/13c456189517575d2e7da4de8e68f59d853f1ab8/output/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/home/tanishashrotriya/Downloads/MyApplication/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/home/tanishashrotriya/.android/build-cache/13c456189517575d2e7da4de8e68f59d853f1ab8/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/home/tanishashrotriya/Downloads/MyApplication/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/home/tanishashrotriya/.android/build-cache/13c456189517575d2e7da4de8e68f59d853f1ab8/output/res/layout-v21/notification_template_icon_group.xml"
+    }
+]

@@ -1,0 +1,115 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/tanishashrotriya/Downloads/MyApplication/app/src/main/AndroidManifest.xml:2:1-36:12
+	package
+		ADDED from /home/tanishashrotriya/Downloads/MyApplication/app/src/main/AndroidManifest.xml:3:5-49
+		INJECTED from /home/tanishashrotriya/Downloads/MyApplication/app/src/main/AndroidManifest.xml
+		INJECTED from /home/tanishashrotriya/Downloads/MyApplication/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/tanishashrotriya/Downloads/MyApplication/app/src/main/AndroidManifest.xml
+		INJECTED from /home/tanishashrotriya/Downloads/MyApplication/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/tanishashrotriya/Downloads/MyApplication/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /home/tanishashrotriya/Downloads/MyApplication/app/src/main/AndroidManifest.xml
+		INJECTED from /home/tanishashrotriya/Downloads/MyApplication/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /home/tanishashrotriya/Downloads/MyApplication/app/src/main/AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from /home/tanishashrotriya/Downloads/MyApplication/app/src/main/AndroidManifest.xml:4:22-64
+application
+ADDED from /home/tanishashrotriya/Downloads/MyApplication/app/src/main/AndroidManifest.xml:5:5-34:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/tanishashrotriya/.android/build-cache/13c456189517575d2e7da4de8e68f59d853f1ab8/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] /home/tanishashrotriya/.android/build-cache/5c3edae396cf4901663dcc8e2984064e980a111e/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /home/tanishashrotriya/.android/build-cache/7e4722b9f703eeab6d51ab3b0ad10a768e16cf31/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/tanishashrotriya/.android/build-cache/5fd66fd2b2c7df1ecdef91a8cdf1f979a20fe72e/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/tanishashrotriya/.android/build-cache/7478c361ed1ab75594a8f601a6aa9f50958543bb/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/tanishashrotriya/.android/build-cache/159bdf61dcd0baaeb240ffa6835f02edd1c64366/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/tanishashrotriya/.android/build-cache/c7cdc47b526d6e769164cc4d44f4fa6dfd2806b5/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/tanishashrotriya/.android/build-cache/ff4254d2eecdda95d67837edc5cb15bb4f4c6eff/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /home/tanishashrotriya/.android/build-cache/6f446847e0226daabe6c98f67eb970c9f0948b2e/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/tanishashrotriya/.android/build-cache/01a382c172223566f1c33c0bc156e1e7763ad939/output/AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from /home/tanishashrotriya/Downloads/MyApplication/app/src/main/AndroidManifest.xml:8:9-41
+	android:supportsRtl
+		ADDED from /home/tanishashrotriya/Downloads/MyApplication/app/src/main/AndroidManifest.xml:10:9-35
+	android:roundIcon
+		ADDED from /home/tanishashrotriya/Downloads/MyApplication/app/src/main/AndroidManifest.xml:9:9-54
+	android:allowBackup
+		ADDED from /home/tanishashrotriya/Downloads/MyApplication/app/src/main/AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from /home/tanishashrotriya/Downloads/MyApplication/app/src/main/AndroidManifest.xml:7:9-43
+	android:theme
+		ADDED from /home/tanishashrotriya/Downloads/MyApplication/app/src/main/AndroidManifest.xml:11:9-40
+activity#com.example.shivanii.gamesataclick.MainActivity
+ADDED from /home/tanishashrotriya/Downloads/MyApplication/app/src/main/AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from /home/tanishashrotriya/Downloads/MyApplication/app/src/main/AndroidManifest.xml:12:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/tanishashrotriya/Downloads/MyApplication/app/src/main/AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from /home/tanishashrotriya/Downloads/MyApplication/app/src/main/AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from /home/tanishashrotriya/Downloads/MyApplication/app/src/main/AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/tanishashrotriya/Downloads/MyApplication/app/src/main/AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from /home/tanishashrotriya/Downloads/MyApplication/app/src/main/AndroidManifest.xml:16:27-74
+activity#com.example.shivanii.gamesataclick.tictactoe
+ADDED from /home/tanishashrotriya/Downloads/MyApplication/app/src/main/AndroidManifest.xml:19:9-25:20
+	android:name
+		ADDED from /home/tanishashrotriya/Downloads/MyApplication/app/src/main/AndroidManifest.xml:19:19-44
+intent-filter#android.intent.category.DEFAULT+com.example.shivanii.gamesataclick.tictactoe
+ADDED from /home/tanishashrotriya/Downloads/MyApplication/app/src/main/AndroidManifest.xml:20:13-24:29
+action#com.example.shivanii.gamesataclick.tictactoe
+ADDED from /home/tanishashrotriya/Downloads/MyApplication/app/src/main/AndroidManifest.xml:21:17-87
+	android:name
+		ADDED from /home/tanishashrotriya/Downloads/MyApplication/app/src/main/AndroidManifest.xml:21:25-84
+category#android.intent.category.DEFAULT
+ADDED from /home/tanishashrotriya/Downloads/MyApplication/app/src/main/AndroidManifest.xml:23:17-76
+	android:name
+		ADDED from /home/tanishashrotriya/Downloads/MyApplication/app/src/main/AndroidManifest.xml:23:27-73
+activity#com.example.shivanii.gamesataclick.bingo
+ADDED from /home/tanishashrotriya/Downloads/MyApplication/app/src/main/AndroidManifest.xml:26:9-33:20
+	android:name
+		ADDED from /home/tanishashrotriya/Downloads/MyApplication/app/src/main/AndroidManifest.xml:26:19-40
+intent-filter#android.intent.category.DEFAULT+com.example.shivanii.gamesataclick.bingo
+ADDED from /home/tanishashrotriya/Downloads/MyApplication/app/src/main/AndroidManifest.xml:27:13-31:29
+action#com.example.shivanii.gamesataclick.bingo
+ADDED from /home/tanishashrotriya/Downloads/MyApplication/app/src/main/AndroidManifest.xml:28:17-83
+	android:name
+		ADDED from /home/tanishashrotriya/Downloads/MyApplication/app/src/main/AndroidManifest.xml:28:25-80
+uses-sdk
+INJECTED from /home/tanishashrotriya/Downloads/MyApplication/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/tanishashrotriya/.android/build-cache/13c456189517575d2e7da4de8e68f59d853f1ab8/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.3.1] /home/tanishashrotriya/.android/build-cache/5c3edae396cf4901663dcc8e2984064e980a111e/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] /home/tanishashrotriya/.android/build-cache/7e4722b9f703eeab6d51ab3b0ad10a768e16cf31/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/tanishashrotriya/.android/build-cache/5fd66fd2b2c7df1ecdef91a8cdf1f979a20fe72e/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/tanishashrotriya/.android/build-cache/7478c361ed1ab75594a8f601a6aa9f50958543bb/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/tanishashrotriya/.android/build-cache/159bdf61dcd0baaeb240ffa6835f02edd1c64366/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/tanishashrotriya/.android/build-cache/c7cdc47b526d6e769164cc4d44f4fa6dfd2806b5/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/tanishashrotriya/.android/build-cache/ff4254d2eecdda95d67837edc5cb15bb4f4c6eff/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-compat:25.3.1] /home/tanishashrotriya/.android/build-cache/6f446847e0226daabe6c98f67eb970c9f0948b2e/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/tanishashrotriya/.android/build-cache/01a382c172223566f1c33c0bc156e1e7763ad939/output/AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /home/tanishashrotriya/.android/build-cache/13c456189517575d2e7da4de8e68f59d853f1ab8/output/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /home/tanishashrotriya/Downloads/MyApplication/app/src/main/AndroidManifest.xml
+		INJECTED from /home/tanishashrotriya/Downloads/MyApplication/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/tanishashrotriya/Downloads/MyApplication/app/src/main/AndroidManifest.xml
+		INJECTED from /home/tanishashrotriya/Downloads/MyApplication/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:25.3.1] /home/tanishashrotriya/.android/build-cache/13c456189517575d2e7da4de8e68f59d853f1ab8/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] /home/tanishashrotriya/.android/build-cache/5c3edae396cf4901663dcc8e2984064e980a111e/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] /home/tanishashrotriya/.android/build-cache/7e4722b9f703eeab6d51ab3b0ad10a768e16cf31/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/tanishashrotriya/.android/build-cache/5fd66fd2b2c7df1ecdef91a8cdf1f979a20fe72e/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/tanishashrotriya/.android/build-cache/7478c361ed1ab75594a8f601a6aa9f50958543bb/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/tanishashrotriya/.android/build-cache/159bdf61dcd0baaeb240ffa6835f02edd1c64366/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/tanishashrotriya/.android/build-cache/c7cdc47b526d6e769164cc4d44f4fa6dfd2806b5/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/tanishashrotriya/.android/build-cache/ff4254d2eecdda95d67837edc5cb15bb4f4c6eff/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-compat:25.3.1] /home/tanishashrotriya/.android/build-cache/6f446847e0226daabe6c98f67eb970c9f0948b2e/output/AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /home/tanishashrotriya/.android/build-cache/13c456189517575d2e7da4de8e68f59d853f1ab8/output/AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /home/tanishashrotriya/.android/build-cache/13c456189517575d2e7da4de8e68f59d853f1ab8/output/AndroidManifest.xml:26:9-47

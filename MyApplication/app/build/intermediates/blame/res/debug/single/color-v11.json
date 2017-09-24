@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/tanishashrotriya/Downloads/MyApplication/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/home/tanishashrotriya/.android/build-cache/13c456189517575d2e7da4de8e68f59d853f1ab8/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/home/tanishashrotriya/Downloads/MyApplication/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/home/tanishashrotriya/.android/build-cache/13c456189517575d2e7da4de8e68f59d853f1ab8/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    }
+]

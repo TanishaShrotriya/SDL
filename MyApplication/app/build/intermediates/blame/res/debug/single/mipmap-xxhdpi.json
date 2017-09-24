@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/tanishashrotriya/Downloads/MyApplication/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher_round.png",
+        "source": "/home/tanishashrotriya/Downloads/MyApplication/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/tanishashrotriya/Downloads/MyApplication/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
+        "source": "/home/tanishashrotriya/Downloads/MyApplication/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    }
+]
