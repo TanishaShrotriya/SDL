@@ -1,10 +1,13 @@
 package com.example.shivanii.gamesataclick;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.RelativeLayout;
 import android.widget.Toast;
 import java.net.*;
 import java.io.*;
@@ -13,6 +16,7 @@ public class tictactoe extends AppCompatActivity {
 
     static tictactoe2 t ;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
@@ -20,15 +24,15 @@ public class tictactoe extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tictactoe);
 
-
     }
-    //   public static int count=0;
-   // int done=0;
+
    public void one(View view)
     {
+        Button b1 = (Button)findViewById(R.id.button);
 
         t.count++;
-        Button b1 = (Button)findViewById(R.id.button);
+
+        b1.setClickable(false);
         if(t.done==0)
         {
             if (t.count % 2 == 0) {
@@ -47,16 +51,17 @@ public class tictactoe extends AppCompatActivity {
         }
         Thread th = new Thread(new tictactoeThread());
         th.start();
-
-        Toast.makeText(this, "Thread supposedly started", Toast.LENGTH_SHORT).show();
-
+        Toast.makeText(this, "Thread started", Toast.LENGTH_SHORT).show();
+        Intent i =new Intent(this,message.class);
+        startActivity(i);
     }
-  //  int d=0;
+
     public void two(View v)
     {
         t.count++;
 
         Button b2=(Button)findViewById(R.id.button2);
+
         if(t.d==0)
         {
             if (t.count % 2 == 0) {
@@ -71,8 +76,10 @@ public class tictactoe extends AppCompatActivity {
         {
             Toast.makeText(this, "Already marked", Toast.LENGTH_SHORT).show();
         }
+
+        Intent i =new Intent(this,message.class);
+        startActivity(i);
     }
-    //int d1=0;
 
     public void three(View v)
     {
@@ -100,7 +107,9 @@ public class tictactoe extends AppCompatActivity {
     {
 
         t.count++;
+
         Button b4=(Button)findViewById(R.id.button5);
+
         if(t.don==0)
         {
             if (t.count % 2 == 0) {
@@ -120,6 +129,7 @@ public class tictactoe extends AppCompatActivity {
     public void five(View v)
     {
         t.count++;
+
         Button b5=(Button)findViewById(R.id.button6);
 
         if(t.dd==0)
@@ -142,6 +152,7 @@ public class tictactoe extends AppCompatActivity {
     {
 
         t.count++;
+
         Button b6=(Button)findViewById(R.id.button7);
 
         if(t.dn==0)
@@ -163,7 +174,9 @@ public class tictactoe extends AppCompatActivity {
     public void seven(View v)
     {
         t.count++;
+
         Button b7=(Button)findViewById(R.id.button8);
+
         if(t.d2==0)
         {
             if (t.count % 2 == 0) {
@@ -179,11 +192,12 @@ public class tictactoe extends AppCompatActivity {
             Toast.makeText(this, "Already marked", Toast.LENGTH_SHORT).show();
         }
     }
-   // int d3=0;
+
     public void eight(View v)
     {
 
         t.count++;
+
         Button b8=(Button)findViewById(R.id.button9);
 
         if(t.d3==0)
@@ -205,6 +219,7 @@ public class tictactoe extends AppCompatActivity {
     public void nine(View v)
     {
         t.count++;
+
         Button b9=(Button)findViewById(R.id.b10);
 
         if(t.d4==0)
@@ -240,7 +255,10 @@ public class tictactoe extends AppCompatActivity {
                 port = 12345;
                 //Client socket created.
 
-                s = new Socket("192.168.0.5", port);
+               //s = new Socket("192.168.0.5", port);
+                s = new Socket("192.168.43.53", port);
+
+
                 //giving IP address of server and the port for communication
 
                 //Objects created for data transfer
@@ -256,29 +274,113 @@ public class tictactoe extends AppCompatActivity {
                 tictactoe2 tOld=t;
                 cObOut.writeObject(t);
                 t=(tictactoe2)cObIn.readObject();
-                compare(tOld);
+                cOut.writeUTF("move updated");
+                s.close();
             }
             catch(Exception e) {
                 e.getMessage();
             }
+
         }
 
     }
 
-    public void compare(tictactoe2 tOld) {
 
-        if(t.dd!=tOld.dd) {
 
-            Button b5=(Button)findViewById(R.id.button6);
-
+    @Override
+    protected void onPostCreate(@Nullable Bundle savedInstanceState) {
+        super.onPostCreate(savedInstanceState);
+        Button b1 = (Button)findViewById(R.id.button);
+        Button b2=(Button)findViewById(R.id.button2);
+        Button b3=(Button)findViewById(R.id.button4);
+        Button b4=(Button)findViewById(R.id.button5);
+        Button b5=(Button)findViewById(R.id.button6);
+        Button b6=(Button)findViewById(R.id.button7);
+        Button b7=(Button)findViewById(R.id.button8);
+        Button b8=(Button)findViewById(R.id.button9);
+        Button b9=(Button)findViewById(R.id.b10);
+        if(t.done==1)
+        {
             if (t.count % 2 == 0) {
-                b5.setText("X");
-                t.dd = 1;
+                b1.setText("X");
+                t.done = 2;
             } else {
-                b5.setText("O");
-                t.dd = 1;
+                b1.setText("O");
+                t.done = 2;
             }
 
+
+        }
+        if(t.d==1)
+        {
+            if (t.count % 2 == 0) {
+                b2.setText("X");
+                t.d = 2;
+            } else {
+                b2.setText("O");
+                t.d = 2;
+            }
+        }
+        if(t.don==1)
+        {
+            if (t.count % 2 == 0) {
+                b4.setText("X");
+                t.don = 2;
+            } else {
+                b4.setText("O");
+                t.don = 2;
+            }
+        }
+        if(t.dd==1)
+        {
+            if (t.count % 2 == 0) {
+                b5.setText("X");
+                t.dd = 2;
+            } else {
+                b5.setText("O");
+                t.dd = 2;
+            }
+        }
+        if(t.dn==1)
+        {
+            if (t.count % 2 == 0) {
+                b6.setText("X");
+                t.dn = 2;
+            } else {
+                b6.setText("O");
+                t.dn = 2;
+            }
+        }
+        if(t.d2==1)
+        {
+            if (t.count % 2 == 0) {
+                b7.setText("X");
+                t.d2= 2;
+            } else {
+                b7.setText("O");
+                t.d2 =2;
+            }
+        }
+
+        if(t.d3==1)
+        {
+            if (t.count % 2 == 0) {
+                b8.setText("X");
+                t.d3 = 2;
+            } else {
+                b8.setText("O");
+                t.d3 = 2;
+            }
+        }
+        if(t.d4==1)
+        {
+            if (t.count % 2 == 0) {
+                b9.setText("X");
+                t.d4 = 2;
+            } else {
+                b9.setText("O");
+                t.d4 = 2;
+            }
         }
     }
 }

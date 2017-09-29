@@ -2,6 +2,7 @@ package com.example.shivanii.gamesataclick;
 
 import android.os.Parcel;
 import android.os.Parcelable;
+import android.widget.Button;
 
 import java.io.Serializable;
 
@@ -19,7 +20,9 @@ public class tictactoe2 implements Parcelable, Serializable {
 
         public static int count=0;
         int done,d,d1,don,dd,d2,dn,d3,d4;
-
+        //Button b1;
+       // Button b5;
+    //BUTTON NOT SERIALIZABLE
         @Override
 
         public int describeContents() {
