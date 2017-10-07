@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    android:layout_margin="4dp"
+    tools:context="com.example.shivanii.gamesataclick.tictactoe">
+
+
+    <TextView
+        android:id="@+id/head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tic Tac Toe"
+        android:textAlignment="center"
+        android:textSize="50dp"
+        android:background="#9000"
+        android:fontFamily="cursive"
+        android:textColor="#FFF"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:textSize="50dp"
+        android:background="#90FFFFFF"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="106dp"
+        android:id="@+id/button"
+        android:onClick="one"
+        android:layout_below="@+id/head"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:textSize="50dp"
+        android:background="#804169E1"
+        android:layout_alignBottom="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/button2"
+        android:onClick="two"/>
+
+    <Button
+        android:onClick="three"
+        android:textSize="50dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="25dp"
+        android:background="#90FFFFFF"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/button4" />
+
+    <Button
+        android:onClick="four"
+        android:textSize="50dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="#804169E1"
+        android:layout_below="@+id/button4"
+        android:layout_alignStart="@+id/button4"
+        android:layout_marginTop="35dp"
+        android:id="@+id/button5" />
+
+    <Button
+        android:onClick="five"
+        android:textSize="50dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="#90FFFFFF"
+        android:layout_alignBottom="@+id/button5"
+        android:layout_alignStart="@+id/button2"
+        android:id="@+id/button6" />
+    <Button
+        android:onClick="six"
+        android:textSize="50dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="#804169E1"
+        android:layout_alignBottom="@+id/button6"
+        android:layout_alignStart="@+id/button"
+        android:id="@+id/button7" />
+    <Button
+        android:onClick="seven"
+        android:textSize="50dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="#90FFFFFF"
+        android:layout_below="@+id/button7"
+        android:layout_alignStart="@+id/button7"
+        android:layout_marginTop="37dp"
+        android:id="@+id/button8" />
+    <Button
+        android:onClick="eight"
+        android:textSize="50dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+
+        android:background="#804169E1"
+        android:layout_alignBottom="@+id/button8"
+        android:layout_alignStart="@+id/button6"
+        android:id="@+id/button9" />
+    <Button
+        android:onClick="nine"
+        android:id="@+id/b10"
+        android:textSize="50dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="#90FFFFFF"
+        android:layout_alignBottom="@+id/button9"
+        android:layout_alignStart="@+id/button5" />
+</RelativeLayout>
