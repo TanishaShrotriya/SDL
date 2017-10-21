@@ -11,8 +11,8 @@ Java Swing GUI + Model View Controller architecture and multithreading to implem
 
 Player vs Player version - 
 
-Implemented using client server multithreading, where server acts as the Model, or the element that transfers data between two   
-players or clients.
+Implemented using client server multithreading, where server acts as the Model, or the element that transfers data
+between two players or clients.
 
 Server creates an array of threads, which wait for a client request. It pairs every odd numbered client with the even numbered   
 client. Thus it handles the write and read requests among the two clients. 
